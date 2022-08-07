@@ -1,0 +1,19 @@
+{
+  "appTitleLabel": "स्प्लिट बिल",
+  "languageLabel": "भाषा",
+  "billAmountLabel": "बिलाची रक्कम",
+  "tipAmountLabel": "टीप रक्कम",
+  "billAmountPlusTipAmountTotalLabel": "बिलाची रक्कम + टीप रक्कम",
+  "billTipTotalDefaultValue": "0.00",
+  "noOfPeopleLabel": "लोकांची संख्या",
+  "numberOfPeopleDefaultValue": "1",
+  "addButtonLabel": "+",
+  "removeButtonLabel": "-",
+  "totalPerPersonLabel": "प्रति व्यक्ती एकूण",
+  "totalPerPersonDefaultValue": "0.00",
+  "currencyLabel": "चलन",
+  "englishLabel": "इंग्रजी",
+  "marathiLabel": "मराठी",
+  "inrLabel": "भारतीय रुपया (₹)",
+  "usdLabel": "यूएस डॉलर ($)"
+}

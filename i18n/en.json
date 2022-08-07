@@ -1,0 +1,19 @@
+{
+  "appTitleLabel": "Split Bill",
+  "languageLabel": "Language",
+  "billAmountLabel": "Bill Amount",
+  "tipAmountLabel": "Tip Amount",
+  "billAmountPlusTipAmountTotalLabel": "Bill Amount + Tip Amount",
+  "billTipTotalDefaultValue": "0.00",
+  "noOfPeopleLabel": "No of People",
+  "numberOfPeopleDefaultValue": "1",
+  "addButtonLabel": "+",
+  "removeButtonLabel": "-",
+  "totalPerPersonLabel": "Total Per Person",
+  "totalPerPersonDefaultValue": "0.00",
+  "currencyLabel": "Currency",
+  "englishLabel": "English",
+  "marathiLabel": "Marathi",
+  "inrLabel": "Indian Rupee (₹)",
+  "usdLabel": "US Doller ($)"
+}

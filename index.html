@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Split Bill Calculator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="appTitle" data-i18n="appTitleLabel"></div>
+      </div>
+      <div class="container" id="topContainer">
+        <div>
+          <div class="title" data-i18n="languageLabel"></div>
+          <div class="languageContainer">
+            <select
+              id="language"
+              class="language"
+              onchange="setLanguage(this.value);"
+            >
+              <option value="en" data-i18n="englishLabel"></option>
+              <option value="mr" data-i18n="marathiLabel"></option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <div class="title" data-i18n="currencyLabel"></div>
+          <div class="currencyContainer">
+            <select
+              id="currency"
+              class="currency"
+              onchange="setCurrency(this.value);"
+            >
+              <option value="INR" data-i18n="inrLabel"></option>
+              <option value="USD" data-i18n="usdLabel"></option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="title" data-i18n="billAmountLabel"></div>
+        <div class="inputContainer">
+          <span class="currencySymbol"></span>
+          <input
+            onkeyup="calculateBill()"
+            type="text"
+            id="billTotalInput"
+            placeholder="0.00"
+          />
+        </div>
+      </div>
+      <div class="container">
+        <div class="title" data-i18n="tipAmountLabel"></div>
+        <div class="inputContainer">
+          <span class="currencySymbol"></span>
+          <input
+            onkeyup="calculateBill()"
+            type="text"
+            id="tipInput"
+            placeholder="0.00"
+          />
+        </div>
+      </div>
+      <div class="container">
+        <div class="title" data-i18n="billAmountPlusTipAmountTotalLabel"></div>
+        <div class="billTipTotal">
+          <span class="currencySymbol"></span>
+          <span id="billTipTotal" data-i18n="billTipTotalDefaultValue"></span>
+        </div>
+      </div>
+      <div class="container" id="bottom">
+        <div class="splitContainer">
+          <div class="title" data-i18n="noOfPeopleLabel"></div>
+          <div class="controls">
+            <span class="buttonContainer">
+              <button class="splitButton" onclick="increasePeople()">
+                <span class="buttonText" data-i18n="addButtonLabel"></span>
+              </button>
+            </span>
+            <span
+              class="splitAmount"
+              id="numberOfPeople"
+              data-i18n="numberOfPeopleDefaultValue"
+            ></span>
+            <span class="buttonContainer">
+              <button class="splitButton" onclick="decreasePeople()">
+                <span class="buttonText" data-i18n="removeButtonLabel">-</span>
+              </button>
+            </span>
+          </div>
+        </div>
+        <div class="totalContainer">
+          <div class="title" data-i18n="totalPerPersonLabel"></div>
+          <div class="total" class="buttonText">
+            <span class="currencySymbol"></span>
+            <span
+              id="perPersonTotal"
+              data-i18n="totalPerPersonDefaultValue"
+            ></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
