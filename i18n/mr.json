@@ -3,7 +3,7 @@
   "languageLabel": "भाषा",
   "billAmountLabel": "बिलाची रक्कम",
   "tipAmountLabel": "टीप रक्कम",
-  "billAmountPlusTipAmountTotalLabel": "बिलाची रक्कम + टीप रक्कम",
+  "totalLabel": "एकूण",
   "billTipTotalDefaultValue": "0.00",
   "noOfPeopleLabel": "लोकांची संख्या",
   "numberOfPeopleDefaultValue": "1",

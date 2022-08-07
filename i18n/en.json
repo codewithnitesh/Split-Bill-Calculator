@@ -3,7 +3,7 @@
   "languageLabel": "Language",
   "billAmountLabel": "Bill Amount",
   "tipAmountLabel": "Tip Amount",
-  "billAmountPlusTipAmountTotalLabel": "Bill Amount + Tip Amount",
+  "totalLabel": "Total Amount",
   "billTipTotalDefaultValue": "0.00",
   "noOfPeopleLabel": "No of People",
   "numberOfPeopleDefaultValue": "1",

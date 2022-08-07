@@ -97,7 +97,7 @@ const calculateBill = () => {
 
   // get the tip from user
   const tipAmount = Number(tipInput.value)
-
+  
   // calculate the total (tip amount + bill)
   const total = tipAmount + bill
 

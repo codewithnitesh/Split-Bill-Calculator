@@ -15,6 +15,7 @@ body {
   border-radius: 1rem;
   padding: 1.2rem;
   margin: 100px auto;
+  overflow: auto;
 }
 
 #topContainer {
@@ -52,6 +53,7 @@ body {
 
 .language,
 .currency {
+  font-size: 1rem;
   padding: 0 0.8rem;
   background: #353959;
   color: white !important;
@@ -83,6 +85,7 @@ body {
 .controls {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .splitButton {
@@ -98,22 +101,17 @@ body {
 
 .splitAmount {
   font-size: 1.6rem;
-  margin: 0.8rem;
+  margin: 0 0.5rem;
 }
 
-#bottom {
+.noOfPeoplecontainer {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
-.totalContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-}
-
 .total {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .billTipTotal {

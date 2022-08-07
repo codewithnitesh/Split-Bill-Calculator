@@ -52,7 +52,7 @@
           <span class="currencySymbol"></span>
           <input
             onkeyup="calculateBill()"
-            type="text"
+            type="number"
             id="billTotalInput"
             placeholder="0.00"
           />
@@ -64,21 +64,21 @@
           <span class="currencySymbol"></span>
           <input
             onkeyup="calculateBill()"
-            type="text"
+            type="number"
             id="tipInput"
             placeholder="0.00"
           />
         </div>
       </div>
       <div class="container">
-        <div class="title" data-i18n="billAmountPlusTipAmountTotalLabel"></div>
+        <div class="title" data-i18n="totalLabel"></div>
         <div class="billTipTotal">
           <span class="currencySymbol"></span>
           <span id="billTipTotal" data-i18n="billTipTotalDefaultValue"></span>
         </div>
       </div>
-      <div class="container" id="bottom">
-        <div class="splitContainer">
+      <div class="container">
+        <div class="noOfPeoplecontainer">
           <div class="title" data-i18n="noOfPeopleLabel"></div>
           <div class="controls">
             <span class="buttonContainer">
@@ -98,15 +98,15 @@
             </span>
           </div>
         </div>
-        <div class="totalContainer">
-          <div class="title" data-i18n="totalPerPersonLabel"></div>
-          <div class="total" class="buttonText">
-            <span class="currencySymbol"></span>
-            <span
-              id="perPersonTotal"
-              data-i18n="totalPerPersonDefaultValue"
-            ></span>
-          </div>
+      </div>
+      <div class="container">
+        <div class="title" data-i18n="totalPerPersonLabel"></div>
+        <div class="total" class="buttonText">
+          <span class="currencySymbol"></span>
+          <span
+            id="perPersonTotal"
+            data-i18n="totalPerPersonDefaultValue"
+          ></span>
         </div>
       </div>
     </div>
